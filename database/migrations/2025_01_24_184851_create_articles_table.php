@@ -14,12 +14,12 @@ return new class extends Migration
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('author')->nullable();
-            $table->text('content')->nullable();
-            $table->string('source');
-            $table->string('category')->nullable();
-            $table->timestamp('published_at')->nullable();
-            $table->timestamps();
+            $table->string('author')->nullable();  // Nullable author field
+            $table->text('content')->nullable();  // Nullable content field
+            $table->string('source');  // Non-nullable source field
+            $table->string('category')->nullable();  // Nullable category field
+            $table->timestamp('published_at')->nullable();  // Nullable published_at field
+            $table->timestamps();  // Automatically adds created_at and updated_at
         });
     }
 

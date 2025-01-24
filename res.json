@@ -1,0 +1,164 @@
+array:12 [
+  0 => array:8 [
+    "source" => array:2 [
+      "id" => "ign"
+      "name" => "IGN"
+    ]
+    "author" => "Wesley Yin-Poole"
+    "title" => "Doom: The Dark Ages Has a Release Date and an Explanation for Why It’s Single-Player Campaign Only - IGN"
+    "description" => "Doom: The Dark Ages was one of the stars of Microsoft’s Xbox Developer Direct 2025 showcase, with confirmation of a release date, new gameplay footage, and plenty more."
+    "url" => "https://www.ign.com/articles/doom-the-dark-ages-has-a-release-date-and-an-explanation-for-why-its-single-player-campaign-only"
+    "urlToImage" => "https://assets-prd.ignimgs.com/2025/01/23/doom-1737645727911.jpg?width=1280"
+    "publishedAt" => "2025-01-23T18:56:27Z"
+    "content" => """
+      Doom: The Dark Ages was one of the stars of Microsofts Xbox Developer Direct 2025 showcase, with confirmation of a release date, new gameplay footage, and plenty more.\r\n
+      First up, the release date. Do… [+2095 chars]
+      """
+  ]
+  1 => array:8 [
+    "source" => array:2 [
+      "id" => "ign"
+      "name" => "IGN"
+    ]
+    "author" => "Rebekah Valentine"
+    "title" => "Assassin's Creed Shadows Director Says Recent Delay was to Polish Parkour, Especially on 'Super Complex Roofs' - IGN"
+    "description" => "Assassin's Creed Shadows' release date is set for March 2025 after multiple delays. The most recent was only by a month, which doesn't seem like much time to change anything significant. So why did Ubisoft push the game? According to the game director: roofs."
+    "url" => "https://www.ign.com/articles/assassins-creed-shadows-director-says-recent-delay-was-to-polish-parkour-especially-on-super-complex-roofs"
+    "urlToImage" => "https://assets-prd.ignimgs.com/2022/09/10/red-1662841350202.jpg?width=1280"
+    "publishedAt" => "2025-01-23T17:01:50Z"
+    "content" => "Assassin's Creed Shadows is expected to launch March 20, 2025, after multipledelays. The most recent was only by a month, which doesn't seem like much time to change anything significant. So why did … [+1515 chars]"
+  ]
+  2 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "Yahoo Entertainment"
+    ]
+    "author" => "Jason Schreier"
+    "title" => "EA Shares Plunge on Earnings Warning After Weak Soccer, ‘Dragon Age’ Games - Yahoo Finance"
+    "description" => "(Bloomberg) -- Shares of Electronic Arts Inc. plunged 18% Thursday morning, the biggest decline since 2008, after the gaming company warned its financial..."
+    "url" => "https://finance.yahoo.com/news/ea-says-bookings-slid-weakness-105122049.html"
+    "urlToImage" => "https://s.yimg.com/ny/api/res/1.2/G743kUnblz5NlTJXXc7hRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTk-/https://media.zenfs.com/en/bloomberg_technology_68/44fa93ca1fa97fd10a7d0de9f94c55d6"
+    "publishedAt" => "2025-01-23T14:38:15Z"
+    "content" => "(Bloomberg) -- Shares of Electronic Arts Inc. plunged 18% Thursday morning, the biggest decline since 2008, after the gaming company warned its financial results would be weaker than expected due to … [+1518 chars]"
+  ]
+  3 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "Phoronix"
+    ]
+    "author" => null
+    "title" => "NVIDIA GeForce RTX 5090 Linux Benchmarks: Stay Tuned - Phoronix"
+    "description" => "Following the unboxing embargo earlier this week for the NVIDIA GeForce RTX 5090, today the review embargo lifts for the GeForce RTX 5090 Founders Edition."
+    "url" => "https://www.phoronix.com/news/GeForce-RTX-5090-Linux-Driver"
+    "urlToImage" => "https://www.phoronix.net/image.php?id=2025&image=rtx_5090_ubuntu"
+    "publishedAt" => "2025-01-23T14:00:00Z"
+    "content" => null
+  ]
+  4 => array:8 [
+    "source" => array:2 [
+      "id" => "techcrunch"
+      "name" => "TechCrunch"
+    ]
+    "author" => "Margaux MacColl"
+    "title" => "Y Combinator grad Spaceium raises oversubscribed $6.3M for space re-fueling - TechCrunch"
+    "description" => "The company raised a $6.3 million seed round led by Initialized Capital"
+    "url" => "https://techcrunch.com/2025/01/23/space-re-fueling-startup-spacium-raises-6-3-million/"
+    "urlToImage" => "https://techcrunch.com/wp-content/uploads/2025/01/Ashi.jpg?resize=1200,1045"
+    "publishedAt" => "2025-01-23T14:00:00Z"
+    "content" => "Back in 2023, Ashi Dissanayake, co-founder of in-space fueling startup Spaceium, was so bootstrapped she used the surface of her clothes dryer as a desk, sticking her legs inside the drying machine. … [+2243 chars]"
+  ]
+  5 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "CNET"
+    ]
+    "author" => null
+    "title" => "Samsung's New Galaxy Phones Lay Groundwork for Headsets and Glasses to Come - CNET"
+    "description" => "Commentary: A universal AI and better battery life might be previews of what's being announced later this year."
+    "url" => "https://www.cnet.com/tech/computing/samsungs-new-galaxy-phones-are-laying-groundwork-for-glasses/"
+    "urlToImage" => "https://www.cnet.com/a/img/resize/4dd22705fdc9c0990ffa8bdbbec94ed55f2fe422/hub/2025/01/23/8b8eec0f-3ca2-49b9-91b6-93d0d88f8062/img-0006.jpg?auto=webp&fit=crop&height=675&width=1200"
+    "publishedAt" => "2025-01-23T13:00:00Z"
+    "content" => "Samsung and Google are working on an Apple Vision Pro-like mixed reality VR headset running Android XR and Google Gemini. We knew that already and even got a demo of it last year. But Samsung also re… [+5275 chars]"
+  ]
+  6 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "SamMobile"
+    ]
+    "author" => "SamMobile, Mihai Matei"
+    "title" => "Sports fans will love Now Bar in One UI 7 for the Galaxy S25 - SamMobile - Samsung news"
+    "description" => "Now Bar is one of the latest features in One UI 7, and after spending a bit of time with ..."
+    "url" => "https://www.sammobile.com/news/sports-fans-will-love-now-bar-one-ui-7-galaxy-s25/"
+    "urlToImage" => "https://www.sammobile.com/wp-content/uploads/2024/12/One-UI-7.0-Now-Bar-720x405.jpg"
+    "publishedAt" => "2025-01-23T11:31:00Z"
+    "content" => "Now Bar is one of the latest features in One UI 7, and after spending a bit of time with it and the Galaxy S25 for our hands-on videos at Unpacked, we're pretty sure sports fans are going to love it.… [+1344 chars]"
+  ]
+  7 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "ZDNet"
+    ]
+    "author" => "Sabrina Ortiz"
+    "title" => "Samsung Unpacked 2025: Everything you might've missed, Galaxy S25 Edge, AR glasses, more - ZDNet"
+    "description" => "Yesterday's launch event saw the unveiling of the Galaxy S25 series, new Galaxy AI features, and a fresh One UI 7 upgrade. Oh, and the S25 Edge made a surprise appearance."
+    "url" => "https://www.zdnet.com/article/samsung-unpacked-2025-everything-you-mightve-missed-galaxy-s25-edge-ar-glasses-more/"
+    "urlToImage" => "https://www.zdnet.com/a/img/resize/b9f9552fd9781b486ee9184772bb1a5e3963d0b5/2025/01/22/a99e22f1-a013-4148-b2e4-9d7c14943607/img-9994.jpg?auto=webp&fit=crop&height=675&width=1200"
+    "publishedAt" => "2025-01-23T11:00:00Z"
+    "content" => """
+      Like past January Unpacked events, Samsung released three new Galaxy S models, with the base models getting some subtle but meaningful upgrades, including a thinner and lighter design.\u{A0}\r\n
+      Other change… [+2108 chars]
+      """
+  ]
+  8 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "GameSpot"
+    ]
+    "author" => "George Yang"
+    "title" => "Xbox Developer Direct January 2025 - How To Watch And What to Expect - GameSpot"
+    "description" => "Microsoft will be showing off a secret game."
+    "url" => "https://www.gamespot.com/articles/xbox-developer-direct-january-2025-how-to-watch-and-what-to-expect/1100-6528951/"
+    "urlToImage" => "https://www.gamespot.com/a/uploads/screen_kubrick/1646/16465123/4431860-image_2025-01-22_113646190.jpg"
+    "publishedAt" => "2025-01-23T08:00:00Z"
+    "content" => "Microsoft is holding its first showcase of the year, the Xbox Developer Direct 2025. So here's when the showcase will start, how to watch it, and what to expect. [Update: The stream is over, and you … [+1557 chars]"
+  ]
+  9 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "GamesRadar+"
+    ]
+    "author" => "Ashley Bardhan"
+    "title" => "Analysts predict Switch 2 might struggle with attracting mainstream buyers for the same reason Wii U failed: "I can imagine 'normies' being a bit confused" - Gamesradar"
+    "description" => "Oh, awesome, another portable handheld device!"
+    "url" => "https://www.gamesradar.com/platforms/nintendo-switch-2/analysts-predict-switch-2-might-struggle-with-attracting-mainstream-buyers-for-the-same-reason-wii-u-failed-i-can-imagine-normies-being-a-bit-confused/"
+    "urlToImage" => "https://cdn.mos.cms.futurecdn.net/hLSNNJa9EGbcPKuqZkNq6e-1200-80.jpg"
+    "publishedAt" => "2025-01-22T22:05:28Z"
+    "content" => "Nintendo's Switch 2 reveal felt like a lightning bolt delivered straight from Zeus himself for everyone except, well, most people. In fact, since the console – which fans have spent years clamoring f… [+2694 chars]"
+  ]
+  10 => array:8 [
+    "source" => array:2 [
+      "id" => "ign"
+      "name" => "IGN"
+    ]
+    "author" => null
+    "title" => "Call of Duty: Black Ops 6 Terminator Crossover Brings the T-800 to Season 2 - IGN"
+    "description" => null
+    "url" => "https://www.ign.com/articles/call-of-duty-black-ops-6-terminator-crossover-brings-the-t-800-to-season-2"
+    "urlToImage" => null
+    "publishedAt" => "2025-01-22T20:08:14Z"
+    "content" => null
+  ]
+  11 => array:8 [
+    "source" => array:2 [
+      "id" => null
+      "name" => "Global.canon"
+    ]
+    "author" => null
+    "title" => "Canon develops CMOS sensor with 410 megapixels, the largest number of pixels ever achieved in a 35 mm full-frame sensor - Canon Global"
+    "description" => "TOKYO, January 22, 2025—Canon Inc. announced today that it has developed a CMOS sensor with 410 megapixels, which is the largest number1 of pixels ever achieved in a 35 mm full-frame sensor."
+    "url" => "https://global.canon/en/news/2025/20250122.html"
+    "urlToImage" => "https://global.canon/01cmn/img/common/ogp.png"
+    "publishedAt" => "2025-01-22T04:04:25Z"
+    "content" => "TOKYO, January 22, 2025— Canon Inc. announced today that it has developed a CMOS sensor with 410 megapixels (24,592 x 16,704 pixels), which is the largest number1 of pixels ever achieved in a 35 mm f… [+2414 chars]"
+  ]
+] // app\Services\Api\NewsApiService.php:24

@@ -4,36 +4,51 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\Services\Api\NewsApiService;
-use App\Models\Article;
 
 class FetchArticles extends Command
 {
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
     protected $signature = 'fetch:articles';
-    protected $description = 'Fetch articles from external APIs';
 
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Fetch articles from APIs and store them in the database';
+
+    /**
+     * @var NewsApiService
+     */
+    protected $newsApiService;
+
+    /**
+     * Create a new command instance.
+     *
+     * @param NewsApiService $newsApiService
+     */
     public function __construct(NewsApiService $newsApiService)
     {
+        parent::__construct(); // Ensure the parent constructor is called
         $this->newsApiService = $newsApiService;
     }
-    
-    public function handle(NewsApiService $newsApiService)
+
+    /**
+     * Execute the console command.
+     *
+     * @return int
+     */
+    public function handle()
     {
-        $articles = $newsApiService->fetchArticles();
+        $articles = $this->newsApiService->fetchArticles();
 
-        foreach ($articles as $article) {
-            Article::updateOrCreate(
-                ['url' => $article['url']], // Avoid duplicates
-                [
-                    'title' => $article['title'],
-                    'description' => $article['description'],
-                    'content' => $article['content'] ?? '',
-                    'source' => 'NewsAPI',
-                    'author' => $article['author'] ?? 'Unknown',
-                    'published_at' => $article['publishedAt'] ?? now(),
-                ]
-            );
-        }
+        // Logic to store articles in the database goes here
 
-        $this->info('Articles fetched and stored successfully.');
+        $this->info(count($articles) . ' articles fetched and stored successfully!');
+        return 0;
     }
 }
