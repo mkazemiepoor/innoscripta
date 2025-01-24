@@ -12,8 +12,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        // Define scheduled tasks here, e.g., fetching articles every hour
-        // $schedule->command('update:articles')->hourly();
+        $schedule->command('update:articles')->hourly();
     }
 
     /**
