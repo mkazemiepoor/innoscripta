@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Console\Commands;
-
+use App\Models\Article;
 use Illuminate\Console\Command;
 use App\Services\Api\NewsApiService;
 use App\Services\Api\NewYorkTimesService;
@@ -63,12 +63,14 @@ class FetchArticles extends Command
         // Fetch articles from NewsAPI
         $newsApiArticles = $this->newsApiService->fetchArticles();
 
-        // Fetch articles from New York Times
-        $nytArticles = $this->newYorkTimesService->fetchArticles();
-
         // Optionally, fetch articles from Guardian (if needed)
         $guardianArticles = $this->guardianService->fetchArticles();
 
+
+        // Fetch articles from New York Times
+        $nytArticles = [];//$this->newYorkTimesService->fetchArticles();
+
+        
         // Combine the articles from all APIs
         $articles = array_merge($newsApiArticles, $nytArticles, $guardianArticles);
 

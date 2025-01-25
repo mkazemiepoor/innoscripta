@@ -21,6 +21,7 @@ class GuardianService
 
         // Decode the JSON response
         $data = $response->json();
+        //dd($data);
 
         // Check if 'response' and 'results' keys exist and are arrays
         if (!isset($data['response']['results']) || !is_array($data['response']['results'])) {
@@ -33,15 +34,14 @@ class GuardianService
         // Store each article in the database
         foreach ($articles as $articleData) {
             Article::updateOrCreate(
-                ['title' => $articleData['webTitle']], // Use the title as a unique key for upsert
+                ['title' => $articleData['title'] ?? 'Untitled'], // Default to 'Untitled' if title is missing
                 [
                     'author' => $articleData['author'] ?? null,
-                    'content' => $articleData['fields']['body'] ?? null,
-                    'source' => 'The Guardian',  // Since the source is always The Guardian
-                    'category' => 'technology', // Modify if needed, based on your own categories
-                    'published_at' => Carbon::parse($articleData['webPublicationDate'])->toDateTimeString(),
-                    'url' => $articleData['webUrl'] ?? null,
-                    'url_to_image' => $articleData['fields']['thumbnail'] ?? null,
+                    'content' => $articleData['content'] ?? null,
+                    'source' => $articleData['source'] ?? 'Unknown Source',
+                    'category' => $articleData['category'] ?? null,
+                    'published_at' => $articleData['published_at'] ?? null,
+                    'url' => $articleData['url'] ?? null,                    'url_to_image' => $articleData['fields']['thumbnail'] ?? null,
                     'description' => $articleData['fields']['trailText'] ?? null,
                     'section' => $articleData['sectionName'] ?? null,
                     'subsection' => $articleData['subsectionName'] ?? null,
