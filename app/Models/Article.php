@@ -20,7 +20,32 @@ class Article extends Model
         'source',
         'category',
         'published_at',
+        'url',
+        'url_to_image',
+        'description',
+        'section',
+        'subsection',
+        'uri',
+        'item_type',
+        'updated_date',
+        'created_date',
+        'published_date',
+        'des_facet',
+        'org_facet',
+        'per_facet',
+        'geo_facet',
+        'multimedia',
+        'short_url',
     ];
 
-    // You can define any relationships or additional methods here if needed
+    // Define attributes that should be cast to specific types (e.g., JSON fields to arrays)
+    protected $casts = [
+        'des_facet' => 'array',
+        'org_facet' => 'array',
+        'per_facet' => 'array',
+        'geo_facet' => 'array',
+        'multimedia' => 'array',
+    ];
+
+    // Optionally, you can add other methods or relationships if necessary
 }
