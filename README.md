@@ -422,7 +422,7 @@ up Laravel's task scheduler. In a production environment, you can add the
 following to your server's crontab to run every minute:</p>
 
 <p class=MsoNormal style='margin-left:36.0pt;line-height:normal'><code><span
-style='font-size:10.0pt'>* * * * * </span></code><span class=hljs-builtin><span
+style='font-size:10.0pt'>0 * * * * </span></code><span class=hljs-builtin><span
 style='font-size:10.0pt;font-family:"Courier New"'>cd</span></span><code><span
 style='font-size:10.0pt'> /path-to-your-project &amp;&amp; php artisan
 fetch:articles &gt;&gt; /dev/null 2&gt;&amp;1</span></code></p>
